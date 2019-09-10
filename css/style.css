@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Layout */
+
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.detailes {
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+div.wrapper-end {
+    float: right;
+}
+
+h1 {
+    margin-top: 5%;
+    margin-left: 35%;
+    font-weight: 900;
+}
+
+.pin {
+    width: 20px;
+    display: inline;
+}
+
+h2 {
+    display: inline;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.location {
+    margin-top: -10%;
+    margin-left: 15%;
+    font-size: 15px;
+}
+
+.bar button {
+    margin-top: -20%;
+}
+
+.cover {
+    width: 100%;
+}
+
+.followers {
+    float: left;
+    width: 100%;
+}
+
+.followers-no {
+    margin: 2% 0 2%;
+}
+
+.followers-no img {
+    margin-left: 1%;
+    width: 12px;
+    display: inline-block;
+}
+
+.followers img.first {
+    margin-left: 0;
+}
+
+.followers section p {
+    display: block;
+    position: relative;
+    margin: 10px 0 0 10px;
+}
+
+.bar button, .bar .location {
+    display: inline-block;
+}
+
+/* logo */
+
+.logo {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.bar {
+    margin: 10px 0 20px 170px;
+    color: gray;
+}
+
+
+/* BUTTONS */
+
+button {
+    margin: 10px;
+    padding: 0 10px;
+    min-width: 100px;
+    min-height: 30px;
+    height: 100%;
+    border-radius: 10px;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 13px;
+}
+
+.white-button {
+    background: #fff;
+    border: 1px solid rgb(0, 155, 228);
+    color: rgb(0, 31, 46);
+    font-size: 13px;
+}
+
+.blue-button {
+    background: rgb(0, 155, 228);
+    color: #fff;
+    font-size: 13px;
+}
+
+/* HOVER EFFECT */
+
+.white-button:hover {
+    background:rgb(0, 155, 228);
+    color: #fff;
+    -moz-transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    -o-transition: all ease-in-out 250ms;
+    transition: all ease-in-out 250ms;
+} 
+
+.blue-button:hover {
+    background: #fff;;
+    color: rgb(0, 31, 46);
+    border: 1px solid rgb(0, 155, 228);
+    -moz-transition: all ease-in-out 250ms;
+    -webkit-transition: all ease-in-out 250ms;
+    -o-transition: all ease-in-out 250ms;
+    transition: all ease-in-out 250ms;
+}
+
+/* IMAGES */
+
+.cover-image {
+    width: 100%;
+    max-height: 350px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    position: absolute;
+    width: 10%;
+    max-height: 400px;
+    border: 3px solid rgb(255, 255, 255);
+    margin-top: 19%;
+    margin-left: -45%;
+}
+
+/* STYLES */
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    background: #fff;
+    box-shadow: gray 0 1px 2px;
+    z-index: 2;
+}
+
+.followers img {
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: -25px;
+    border: 3px solid #fff;
+}
+
+.followers section {
+    width: 50px;
+    height: 50px;
+    background: rgb(155, 154, 154);
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: -25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 900;
+    border: 3px solid #fff;
+    position: relative;
+    top: -18px;
+
+}
+
+.followers-no p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    color: gray;
+}
+
+.followers-no span {
+    font-weight: 900;
+    color: black;
+}
+
+/* LINE */
+
+.line {
+    width: 80%;
+    height: 2px;
+    background: #ccc;
+    margin: 0 auto;
+}
